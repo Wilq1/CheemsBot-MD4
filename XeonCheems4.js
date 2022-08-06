@@ -3446,7 +3446,13 @@ break
 if (isBanChat) return reply(mess.banChat)
            if (!text) return reply(`Example : ${prefix + command} text`)
            await XeonBotInc.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'hisoka', 'morou', m, {asSticker: true})
-
+         }
+         break
+       case 'attp1': {
+                  if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+           if (!text) reply(`Use ${prefix}attp hello\n*Example : ${prefix + command} ${ownername}*` )
+           await XeonBotInc.sendMedia(m.chat, `https://ayu-team.herokuapp.com/api/maker/attp1?teks=${text}`, 'Xeon', 'Op', m, {asSticker: true}).catch((err) => reply(mess.error))
          }
          break
 case 'attp': {
