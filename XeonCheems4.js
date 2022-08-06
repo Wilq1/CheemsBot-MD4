@@ -1094,25 +1094,25 @@ const reactionMessage = {
                 const timestampe = speed();
 const latensie = speed() - timestampe
                 const menulist = `┌─❖
-│「 Hi 👋 」
+│「 OLÁ 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
+┌┤✑  TUDO BEM, BEM VINDO AO MEU MENU! 😄
 │└────────────┈ ⳹
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄 : ${latensie.toFixed(4)} miliseconds
+│𝐋𝐈𝐆𝐀𝐃𝐎 𝐀 : ${runtime(process.uptime())}
+│𝐍𝐎𝐌𝐄 𝐃𝐎 𝐁𝐎𝐓 : ${global.botname}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 : ${os.platform()}
 │𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 └┬────────────┈ ⳹
-   │✑  Please Select
-   │✑  The Button Below
+   │✑  POR FABOR SELECIONE
+   │✑  O BOTÃO DE MENU A BAIXO
+   │✑  CASO QUEIRA AJUDAR MEU PIX: EM BREVE
    └─────────────┈ ⳹`
    
    //randoming function
