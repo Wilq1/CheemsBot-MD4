@@ -2639,6 +2639,17 @@ if (isBanChat) return reply(mess.banChat)
             }
             }
             break
+case 'gp':
+if(!isBotGroupAdmins) return enviar('NÃO SOU ADMIN, COLOQUE-ME DE ADM')
+if(!isGroupAdmins) return enviar('Este comando só pode ser usado por um ADM😠')
+if(args[0] == 'abrir') {
+XeonBotInc.groupSettingChange(from, GroupSettingChange.messageSend,false)
+enviar('GRUPO ABERTO COM SUCESSO✔️')
+{ else if(args[0] == 'fechar') {
+XeonBotInc.groupSettingChange(from, GroupSettingChange.messageSend,true)
+enviar('GRUPO FECHADO COM SUCESSO✔️)
+}
+break
 case 'autosticker':
             case 'autostiker':
    if (isBan) return reply(mess.ban)	 			
