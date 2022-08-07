@@ -3458,7 +3458,7 @@ if (isBanChat) return reply(mess.banChat)
 case 'attp7': { //©ChefinModder 
 enviar('「 👑 」ESTOU FAZENDO. . .\n CASO NÃO FOR, DIGITE O COMANDO NOVAMENTE! 😴')
 const buff = await getBuffer(`https://ayu-team.herokuapp.com/api/maker/attp7?texto=${encodeURIComponent(q)}&apikey=FQPqoq2xeB`)
-chefin.sendMessage(from, { sticker : buff}) 
+XeonBotInc.sendMessage(from, { sticker : buff}) 
 }
 break
 case 'attp': {
