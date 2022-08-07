@@ -1110,7 +1110,7 @@ const latensie = speed() - timestampe
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 └┬────────────┈ ⳹
-   │✑  POR FABOR SELECIONE
+   │✑  POR FAVOR SELECIONE
    │✑  O BOTÃO DE MENU A BAIXO
    │✑  CASO QUEIRA AJUDAR MEU PIX: EM BREVE
    └─────────────┈ ⳹`
@@ -3456,7 +3456,7 @@ if (isBanChat) return reply(mess.banChat)
          }
          break
 case 'attp7': { //©ChefinModder 
-enviar('「 👑 」ESTOU FAZENDO. . .\n CASO NÃO FOR, DIGITE O COMANDO NOVAMENTE! 😴')
+const enviar('「 👑 」ESTOU FAZENDO. . .\n CASO NÃO FOR, DIGITE O COMANDO NOVAMENTE! 😴')
 const buff = await getBuffer(`https://ayu-team.herokuapp.com/api/maker/attp7?texto=${encodeURIComponent(q)}&apikey=FQPqoq2xeB`)
 XeonBotInc.sendMessage(from, { sticker : buff}) 
 }
