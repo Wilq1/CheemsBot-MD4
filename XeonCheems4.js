@@ -2639,17 +2639,6 @@ if (isBanChat) return reply(mess.banChat)
             }
             }
             break
-case 'gp':
-if(!isBotGroupAdmins) return enviar('NÃO SOU ADMIN, COLOQUE-ME DE ADM')
-if(!isGroupAdmins) return enviar('Este comando só pode ser usado por um ADM😠')
-if(args[0] == 'abrir') {
-XeonBotInc.groupSettingChange(from, GroupSettingChange.messageSend,false)
-enviar('GRUPO ABERTO COM SUCESSO✔️')
-{ else if(args[0] == 'fechar') {
-XeonBotInc.groupSettingChange(from, GroupSettingChange.messageSend,true)
-enviar('GRUPO FECHADO COM SUCESSO✔️)
-}
-break
 case 'autosticker':
             case 'autostiker':
    if (isBan) return reply(mess.ban)	 			
@@ -3467,13 +3456,6 @@ break
 if (isBanChat) return reply(mess.banChat)
            if (!text) return reply(`Example : ${prefix + command} text`)
            await XeonBotInc.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'hisoka', 'morou', m, {asSticker: true})
-         }
-         break
-       case 'attp1': {
-                  if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-           if (!text) reply(`Use ${prefix}attp hello\n*Example : ${prefix + command} ${ownername}*` )
-           await XeonBotInc.sendMedia(m.chat, `https://ayu-team.herokuapp.com/api/maker/attp1?teks=${text}`, 'Xeon', 'Op', m, {asSticker: true}).catch((err) => reply(mess.error))
          }
          break
 case 'attp': {
