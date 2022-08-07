@@ -3455,6 +3455,12 @@ if (isBanChat) return reply(mess.banChat)
            await XeonBotInc.sendMedia(m.chat, `https://ayu-team.herokuapp.com/api/maker/attp1?teks=${text}`, 'Xeon', 'Op', m, {asSticker: true}).catch((err) => reply(mess.error))
          }
          break
+case 'attp7': { //©ChefinModder 
+enviar('「 👑 」ESTOU FAZENDO. . .\n CASO NÃO FOR, DIGITE O COMANDO NOVAMENTE! 😴')
+const buff = await getBuffer(`https://ayu-team.herokuapp.com/api/maker/attp7?texto=${encodeURIComponent(q)}&apikey=FQPqoq2xeB`)
+chefin.sendMessage(from, { sticker : buff}) 
+}
+break
 case 'attp': {
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
