@@ -1100,16 +1100,15 @@ const latensie = speed() - timestampe
 │└────────────┈ ⳹
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
-│𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄 : ${latensie.toFixed(4)} miliseconds
-│𝐋𝐈𝐆𝐀𝐃𝐎 𝐀 : ${runtime(process.uptime())}
-│𝐍𝐎𝐌𝐄 𝐃𝐎 𝐁𝐎𝐓 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+│𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫𝑬 : ${latensie.toFixed(4)} miliseconds
+│𝑳𝑰𝑮𝑨𝑫𝑶 𝑯𝑨: ${runtime(process.uptime())}
+│𝑵𝑶𝑴𝑬 𝑫𝑶 𝑩𝑶𝑻: ${global.botname}
+│𝑵𝑶𝑴𝑬 𝑫𝑶 𝑮𝑹𝑼𝑷𝑶 : ${global.ownername}
+│𝑫𝑶𝑵𝑶 : ${global.owner}
+│𝑷𝑳𝑨𝑻𝑨𝑭𝑶𝑹𝑴𝑨 : ${os.platform()}
+│𝑻𝑶𝑻𝑨𝑳 𝑫𝑬 𝑷𝑬𝑺𝑺𝑶𝑨𝑺 𝑷𝑽 : ${Object.keys(global.db.data.users).length}
 └┬────────────┈ ⳹
+
    │✑  POR FAVOR SELECIONE
    │✑  O BOTÃO DE MENU A BAIXO
    │✑  CASO QUEIRA AJUDAR MEU PIX: EM BREVE
