@@ -1108,7 +1108,6 @@ const latensie = speed() - timestampe
 │𝑷𝑳𝑨𝑻𝑨𝑭𝑶𝑹𝑴𝑨 : ${os.platform()}
 │𝑻𝑶𝑻𝑨𝑳 𝑫𝑬 𝑷𝑬𝑺𝑺𝑶𝑨𝑺 𝑷𝑽 : ${Object.keys(global.db.data.users).length}
 └┬────────────┈ ⳹
-
    │✑  POR FAVOR SELECIONE
    │✑  O BOTÃO DE MENU A BAIXO
    │✑  CASO QUEIRA AJUDAR MEU PIX: EM BREVE
@@ -2605,15 +2604,15 @@ if (isBanChat) return reply(mess.banChat)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
                 if (args[0] === 'close'){
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => reply(`Successful Closing The Group`)).catch((err) => reply(jsonformat(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => reply(`GRUPO FECHADO COM SUCESSO✔️`)).catch((err) => reply(jsonformat(err)))
                 } else if (args[0] === 'open'){
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Successful Opening The Group`)).catch((err) => reply(jsonformat(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`GRUPO FECHADO COM SUCESSO✔️`)).catch((err) => reply(jsonformat(err)))
                 } else {
                 let buttons = [
-                        { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
-                        { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
+                        { buttonId: 'group open', buttonText: { displayText: 'ABEIR' }, type: 1 },
+                        { buttonId: 'group close', buttonText: { displayText: 'FECHAR' }, type: 1 }
                     ]
-                    await XeonBotInc.sendButtonText(m.chat, buttons, `Group Mode`, XeonBotInc.user.name, m)
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `VOCÊ DESEJA FECHAR OU ABRIR O GRUPO ADMIN😊`, XeonBotInc.user.name, m)
 
              }
             }
