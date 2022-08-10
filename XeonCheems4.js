@@ -3242,7 +3242,7 @@ id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: 'DONO 😈',
 id: 'owner'
 }
 }]
@@ -3283,7 +3283,7 @@ id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: 'DONO 😈',
 id: 'owner'
 }
 }]
@@ -3325,7 +3325,7 @@ id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: 'DONO 😈',
 id: 'owner'
 }
 }]
@@ -5845,7 +5845,7 @@ let anui = await textpro(link, q)
 case 'pornhub':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-if(!q) return reply(`Exemplo: ${prefix + command} Danks | corno`)
+if(!q) return reply(`Exemplo: ${prefix + command} Danks / corno`)
 reply(mess.wait)
   inilogo4 = args.join(" ")
 inilogo9 = args.join(" ")
@@ -8847,7 +8847,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Initial Features Of Bot 🦄",
 								"rows": [
 									{
-										"title": "Other ☕",
+										"title": "OUTROS ☕",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
@@ -8857,13 +8857,13 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Bot Features ❤️",
 								"rows": [
 									{
-										"title": "All Menu 🥀",
-										"description": "Displays The List Of All The Features!",
+										"title": "Todos os Menu 🥀",
+										"description": "Exibe a lista de outros recursos!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 💠",
-										"description": "Displays The List Of Owner Features",
+										"title": "Menu Dono 💠",
+										"description": "Exibe a lista de recursos do proprietário!🤑",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
