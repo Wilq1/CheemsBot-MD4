@@ -8038,16 +8038,16 @@ let buttonMessage = {
 image: { url: anu.thumbnail },
 caption: `*| YOUTUBE PLAY |*
 
-${global.themeemoji} Title : ${anu.title}
+${global.themeemoji} Titulo : ${anu.title}
 ${global.themeemoji} Ext : Search
 ${global.themeemoji} ID : ${anu.videoId}
-${global.themeemoji} Duration : ${anu.timestamp}
+${global.themeemoji} Duração  : ${anu.timestamp}
 ${global.themeemoji} Viewers : ${anu.views}
 ${global.themeemoji} Uploaded : ${anu.ago}
-${global.themeemoji} Author : ${anu.author.name}
-${global.themeemoji} Channel : ${anu.author.url}
-${global.themeemoji} Description : ${anu.description}
-${global.themeemoji} Url : ${anu.url}`,
+${global.themeemoji} Autor : ${anu.author.name}
+${global.themeemoji} Canal : ${anu.author.url}
+${global.themeemoji} Descrição : ${anu.description}
+${global.themeemoji} Link : ${anu.url}`,
 footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4,
@@ -8838,13 +8838,13 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
 	if (isBanChat) return reply(mess.banChat)
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    title: `OLA ${pushname}`,
+                    description: `ESCOLHA SEU MENU ABAIXO😅\n\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Initial Features Of Bot 🦄",
+								"title": "Características iniciais do bot 🦄",
 								"rows": [
 									{
 										"title": "OUTROS ☕",
@@ -8854,7 +8854,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "Recursos do bot ❤️",
 								"rows": [
 									{
 										"title": "Todos os Menu 🥀",
@@ -8867,117 +8867,117 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu ✨",
-										"description": "Displays The List Of Main Features",
+										"title": "Menu Grupo ✨",
+										"description": "Exibe a lista de recursos principais",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
-										"title": "Maker Menu 🌈",
-										"description": "Displays The List Of Logo Making Features",
+										"title": "Menu Maker 🌈",
+										"description": "Exibe a lista de recursos de criação de logotipo",
 										"rowId": `${prefix}indomenu`
 									},
 									{
-										"title": "Sound Menu 🎵",
-										"description": "Displays The List Of Sound Features",
+										"title": "Menu Audios 🎵",
+										"description": "Exibe a lista de recursos de som",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
 										"title": "Download Menu ↘️",
-										"description": "Displays The List Of Download Features",
+										"description": "Exibe a lista de recursos para downloads",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Sticker Menu 🃏",
-										"description": "Displays The List Of Sticker Features",
+										"title": "Menu Sticker 🃏",
+										"description": "Exibe a lista de recursos de Figurinhas",
 										"rowId": `${prefix}indomenu`
 									},
 									{
-										"title": "Search Menu 🔎",
-										"description": "Displays The List Of Searching Features",
+										"title": "Menu Pesquisa 🔎",
+										"description": "Exibe a lista de recursos de pesquisa",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Tool Menu ⚙️",
-										"description": "Displays The List Of Tool Features",
+										"title": "Menu Ferramentas ⚙️",
+										"description": "Exibe a lista de recursos da ferramenta",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
-										"title": "Random Image Menu 🌆",
-										"description": "Displays The List Of Random Image Features",
+										"title": "Menu Image aleatória 🌆",
+										"description": "Exibe a lista de recursos de imagem aleatória",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
-										"title": "Image Effect Menu 🖼️",
-										"description": "Displays The List Of Image Effect Features",
+										"title": "Menu efeitos de image 🖼️",
+										"description": "Exibe a lista de recursos de efeito de imagem",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
-											"title": "Anime Menu 😘",
-										"description": "Displays The List Of Random Anime Features",
+											"title": "Menu Anime 😘",
+										"description": "Exibe a lista de recursos de anime aleatórios",
 										"rowId": `${prefix}animemenu`
 										},
 										{
-											"title": "Emote Menu 😀",
-										"description": "Displays The List Of Emote Features",
+											"title": "Menu Emote 😀",
+										"description": "Exibe a lista de recursos de emote",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
-										"title": "Anime Sticker Menu ☺️",
-										"description": "Displays The List Of Anime Sticker Features",
+										"title": "Menu Figurinhas de Anime ☺️",
+										"description": "Exibe a lista de recursos de adesivos de anime",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
-										"title": "Nsfw Menu 🤓",
-										"description": "Displays The List Of Nsfe Features",
+										"title": "Menu Nsfw 🤓",
+										"description": "Exibe a lista de recursos Nsfw",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
-											"title": "Fun Menu 🕺",
-										"description": "Displays The List Of Fun Features",
+											"title": "Menu Fun 🕺",
+										"description": "Exibe a lista de recursos divertidos",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-										"title": "Game Menu 🎮",
-										"description": "Displays The List Of Game Features",
+										"title": "Menu Games 🎮",
+										"description": "Exibe a lista de recursos do jogo",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Convert Menu ⚒️",
-										"description": "Displays The List Of Convert Features",
+											"title": "Menu Conversão ⚒️",
+										"description": "Exibe a lista de recursos de conversão",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu ♻️",
-										"description": "Displays The List Of Database Features",
+											"title": "Menu Database♻️",
+										"description": "Exibe a lista de recursos da Database",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Indo Menu  🦜",
-										"description": "Displays The List Of Indo Features",
+										"title": "Menu Indo 🦜",
+										"description": "Exibe a lista de recursos Indo",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Horoscope Menu 🕊️",
-										"description": "Displays The List Of Horoscope Features",
+											"title": "Menu Horoscopo🕊️",
+										"description": "Exibe a lista de recursos do horóscopo",
 										"rowId": `${prefix}indohoroscopemenu`
 										}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users 🌝",
+								"title": "Converse com os usuários 🌝",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🙎🏻‍♂️",
-										"description": "Displays The List Of Anonymous Chat Features",
+										"title": "Menu Chat anonymous 🙎🏻‍♂️",
+										"description": "Exibe a lista de recursos de bate-papo anônimo",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
 							},
 							{
-								"title": "Credit ©️",
+								"title": "Creditos ©",
 								"rows": [
 									{
-										"title": "Thanks To ❤️",
+										"title": "Obrigado ❤️",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
