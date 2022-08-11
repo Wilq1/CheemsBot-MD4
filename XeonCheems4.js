@@ -8838,8 +8838,8 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
 	if (isBanChat) return reply(mess.banChat)
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `OLA ${pushname}`,
-                    description: `ESCOLHA SEU MENU ABAIXO😅\n\n`,
+                    title: `BEM VINDO A LISTA DE MENU🥵 ${pushname}`,
+                    description: `𝐈𝐧𝐟𝐨 𝐁𝐨𝐭\n ➺ Usuario ${pushname}\n Bot: ${global.botname}\n \n\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
