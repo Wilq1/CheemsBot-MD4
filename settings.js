@@ -103,7 +103,7 @@ global.ntilink = []
 global.sessionName = 'session'
 global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '⭔'
+global.sp = '!'
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
